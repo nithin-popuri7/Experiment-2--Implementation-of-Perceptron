@@ -42,4 +42,8 @@ Plot the error for each iteration
 Print the accuracy
 
 
- PROGRAM:
+ ### PROGRAM:
+```
+## Name:P.Siva Naga Nithin.
+
+### Reg.no:212221240037
