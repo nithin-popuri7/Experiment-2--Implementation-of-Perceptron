@@ -81,8 +81,7 @@ class Perceptron:
   def predict(self, x:np.array):
     return np.where(self.f(x) >= 0,1,-1) 
     ```
-    
-    ```
+    ~~~
     df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/Neural Networks/Exp_2/IRIS.csv")
 df.head()
 
@@ -127,5 +126,5 @@ plt.ylabel('Errors')
 plt.show()
 
 print("accuracy = " , accuracy_score(classifier.predict(x_test), y_test)*100)
-```
+~~~
     
