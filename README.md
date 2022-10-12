@@ -81,7 +81,7 @@ class Perceptron:
   def predict(self, x:np.array):
     return np.where(self.f(x) >= 0,1,-1) 
     ```
-    ~~~
+    ```
     df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/Neural Networks/Exp_2/IRIS.csv")
 df.head()
 
@@ -126,5 +126,16 @@ plt.ylabel('Errors')
 plt.show()
 
 print("accuracy = " , accuracy_score(classifier.predict(x_test), y_test)*100)
-~~~
-    
+```
+### Data Set:
+![Data Set](https://user-images.githubusercontent.com/94154780/195393617-97ee5a6d-be92-42c5-9d47-cd2198834082.png)
+### Scatter Plot:
+![Scatter Plot](https://user-images.githubusercontent.com/94154780/195393703-0e2f86e3-af4f-4a8b-9832-d93c90abeea7.png)
+### Error:
+![error](https://user-images.githubusercontent.com/94154780/195393788-435eb7e2-4796-4bca-9eca-d54b534db624.png)
+### Y Values:
+![y values](https://user-images.githubusercontent.com/94154780/195393887-b1822a61-7ff7-471e-843e-c0168cbb6020.png)
+
+
+
+
