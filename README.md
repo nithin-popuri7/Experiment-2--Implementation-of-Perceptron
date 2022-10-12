@@ -80,9 +80,7 @@ class Perceptron:
     return np.dot(x,self._w) + self._b
   def predict(self, x:np.array):
     return np.where(self.f(x) >= 0,1,-1) 
-    ```
-    ```
-    df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/Neural Networks/Exp_2/IRIS.csv")
+    df = pd.read_csv("IRIS.csv")
 df.head()
 
 y = df.iloc[:,-1].values
